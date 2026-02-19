@@ -10,112 +10,112 @@
 ### Piso 1 – Recepción y Administración General
 
 #### Recepción
-| Host     | Dispositivo | Switch              | Dirección IP   |
-|----------|-------------|---------------------|----------------|
-| PC0      | PC          | SW_L1_RECEPCION     | 192.168.73.2   |
-| PC1      | PC          | SW_L1_RECEPCION     | 192.168.73.3   |
-| PC2      | PC          | SW_L1_RECEPCION     | 192.168.73.5   |
-| PC3      | PC          | SW_L1_RECEPCION     | 192.168.73.6   |
-| PC4      | PC          | SW_L1_RECEPCION     | 192.168.73.7   |
-| PC5      | PC          | SW_L1_RECEPCION     | 192.168.73.8   |
-| PC6      | PC          | SW_L1_RECEPCION     | 192.168.73.9   |
-| PC7      | PC          | SW_L1_RECEPCION     | 192.168.73.10  |
-| PC8      | PC          | SW_L1_RECEPCION     | 192.168.73.11  |
-| PC9      | PC          | SW_L1_RECEPCION     | 192.168.73.12  |
-| LP1      | Laptop      | SW_L1_RECEPCION     | 192.168.73.1   |
-| Laptop2  | Laptop      | SW_L1_RECEPCION     | 192.168.73.4   |
+| DisplayName         | Dispositivo | Switch    | Dirección IP   |
+|---------------------|-------------|-----------|----------------|
+| PC1_RECEP           | PC          | Recep     | 192.168.73.2   |
+| PC2_RECEP           | PC          | Recep     | 192.168.73.3   |
+| PC3_RECEP           | PC          | Recep     | 192.168.73.5   |
+| PC4_RECEP           | PC          | Recep     | 192.168.73.6   |
+| PC5_RECEP           | PC          | Recep     | 192.168.73.7   |
+| PC6_RECEP           | PC          | Recep     | 192.168.73.8   |
+| PC7_RECEP           | PC          | Recep     | 192.168.73.9   |
+| PC8_RECEP           | PC          | Recep     | 192.168.73.10  |
+| PC9_RECEP           | PC          | Recep     | 192.168.73.11  |
+| SERVER_RECEPCION    | Server      | Recep     | 192.168.73.12  |
+| LP1_RECEP           | Laptop      | Recep     | 192.168.73.1   |
+| LP2_RECEP           | Laptop      | Recep     | 192.168.73.4   |
 
 #### Contabilidad
-| Host     | Dispositivo | Switch                | Dirección IP   |
-|----------|-------------|-----------------------|----------------|
-| Laptop6  | Laptop      | SW_L1_CONTABILIDAD    | 192.168.73.15  |
-| Laptop1  | Laptop      | SW_L1_CONTABILIDAD    | 192.168.73.13  |
-| PC10     | PC          | SW_L1_CONTABILIDAD    | 192.168.73.16  |
-| PC11     | PC          | SW_L1_CONTABILIDAD    | 192.168.73.18  |
-| PC12     | PC          | SW_L1_CONTABILIDAD    | 192.168.73.19  |
-| PC13     | PC          | SW_L1_CONTABILIDAD    | 192.168.73.20  |
-| PC14     | PC          | SW_L1_CONTABILIDAD    | 192.168.73.17  |
-| PC15     | PC          | SW_L1_CONTABILIDAD    | 192.168.73.14  |
+| DisplayName   | Dispositivo | Switch   | Dirección IP   |
+|---------------|-------------|----------|----------------|
+| LP1_CONTA     | Laptop      | Conta    | 192.168.73.13  |
+| LP2_CONTA     | Laptop      | Conta    | 192.168.73.15  |
+| PC2_CONTA     | PC          | Conta    | 192.168.73.16  |
+| PC4_CONTA     | PC          | Conta    | 192.168.73.18  |
+| PC5_CONTA     | PC          | Conta    | 192.168.73.19  |
+| PC6_CONTA     | PC          | Conta    | 192.168.73.20  |
+| PC3_CONTA     | PC          | Conta    | 192.168.73.17  |
+| PC1_CONTA     | PC          | Conta    | 192.168.73.14  |
 
 #### Legal
-| Host     | Dispositivo | Switch            | Dirección IP   |
-|----------|-------------|-------------------|----------------|
-| Laptop2  | Laptop      | SW_L1_LEGAL       | 192.168.73.21  |
-| Laptop4  | Laptop      | SW_L1_LEGAL       | 192.168.73.23  |
-| PC16     | PC          | SW_L1_LEGAL       | 192.168.73.24  |
-| PC17     | PC          | SW_L1_LEGAL       | 192.168.73.22  |
-| PC18     | PC          | SW_L1_LEGAL       | 192.168.73.25  |
+| DisplayName   | Dispositivo | Switch      | Dirección IP   |
+|---------------|-------------|-------------|----------------|
+| LP1_LEGAL     | Laptop      | Legal       | 192.168.73.21  |
+| LP2_LEGAL     | Laptop      | Legal       | 192.168.73.23  |
+| PC2_LEGAL     | PC          | Legal       | 192.168.73.24  |
+| PC1_LEGAL     | PC          | Legal       | 192.168.73.22  |
+| PC3_LEGAL     | PC          | Legal       | 192.168.73.25  |
 
 #### Sala de Reuniones (Nivel 1)
-| Host     | Dispositivo | Switch                | Dirección IP   |
-|----------|-------------|-----------------------|----------------|
-| Laptop3  | Laptop      | SW_L1_REUNIONES       | 192.168.73.26  |
-| Laptop7  | Laptop      | SW_L1_REUNIONES       | 192.168.73.28  |
-| PC19     | PC          | SW_L1_REUNIONES       | 192.168.73.30  |
-| PC20     | PC          | SW_L1_REUNIONES       | 192.168.73.29  |
-| PC21     | PC          | SW_L1_REUNIONES       | 192.168.73.27  |
+| DisplayName     | Dispositivo | Switch          | Dirección IP   |
+|-----------------|-------------|-----------------|----------------|
+| LP1_SR          | Laptop      | Reuniones       | 192.168.73.26  |
+| LP2_SR          | Laptop      | Reuniones       | 192.168.73.28  |
+| PC3_SR          | PC          | Reuniones       | 192.168.73.30  |
+| PC2_SR          | PC          | Reuniones       | 192.168.73.29  |
+| PC1__SR         | PC          | Reuniones       | 192.168.73.27  |
 
 ---
 
 ### Piso 2 – Diseño Arquitectónico y Urbanismo
 
 #### Arquitectura
-| Host        | Dispositivo | Switch                  | Dirección IP   |
-|-------------|-------------|-------------------------|----------------|
-| Laptop0     | Laptop      | SW_L2_ARQUITECTURA      | 192.168.73.31  |
-| Laptop9     | Laptop      | SW_L2_ARQUITECTURA      | 192.168.73.33  |
-| PC22        | PC          | SW_L2_ARQUITECTURA      | 192.168.73.34  |
-| PC23        | PC          | SW_L2_ARQUITECTURA      | 192.168.73.32  |
-| PC24        | PC          | SW_L2_ARQUITECTURA      | 192.168.73.36  |
-| PC25        | PC          | SW_L2_ARQUITECTURA      | 192.168.73.35  |
+| DisplayName | Dispositivo | Switch     | Dirección IP   |
+|-------------|-------------|------------|----------------|
+| LP1_ARQ     | Laptop      | Arqui      | 192.168.73.31  |
+| LP2_ARQ     | Laptop      | Arqui      | 192.168.73.33  |
+| PC2_ARQ     | PC          | Arqui      | 192.168.73.34  |
+| PC1_ARQ     | PC          | Arqui      | 192.168.73.32  |
+| PC4_ARQ     | PC          | Arqui      | 192.168.73.36  |
+| PC3_ARQ     | PC          | Arqui      | 192.168.73.35  |
 
 #### Urbanismo
-| Host        | Dispositivo | Switch              | Dirección IP   |
-|-------------|-------------|---------------------|----------------|
-| Laptop1     | Laptop      | SW_L2_URBANISMO     | 192.168.73.37  |
-| Laptop10    | Laptop      | SW_L2_URBANISMO     | 192.168.73.39  |
-| PC26        | PC          | SW_L2_URBANISMO     | 192.168.73.40  |
-| PC27        | PC          | SW_L2_URBANISMO     | 192.168.73.41  |
-| PC28        | PC          | SW_L2_URBANISMO     | 192.168.73.38  |
-| PC29        | PC          | SW_L2_URBANISMO     | 192.168.73.42  |
+| DisplayName | Dispositivo | Switch   | Dirección IP   |
+|-------------|-------------|----------|----------------|
+| LP1_URBA    | Laptop      | Urba     | 192.168.73.37  |
+| LP2_URBA    | Laptop      | Urba     | 192.168.73.39  |
+| PC2_URBA    | PC          | Urba     | 192.168.73.40  |
+| PC3_URBA    | PC          | Urba     | 192.168.73.41  |
+| PC1_URBA    | PC          | Urba     | 192.168.73.38  |
+| SERVER_URBA | Server      | Urba     | 192.168.73.42  |
 
 #### Sala de Revisión de Planos
-| Host        | Dispositivo | Switch                       | Dirección IP   |
-|-------------|-------------|------------------------------|----------------|
-| Laptop8     | Laptop      | SW_L2_REVISION_PLANOS        | 192.168.73.45  |
-| Laptop2     | Laptop      | SW_L2_REVISION_PLANOS        | 192.168.73.43  |
-| PC30        | PC          | SW_L2_REVISION_PLANOS        | 192.168.73.44  |
-| PC31        | PC          | SW_L2_REVISION_PLANOS        | 192.168.73.46  |
-| PC32        | PC          | SW_L2_REVISION_PLANOS        | 192.168.73.47  |
+| DisplayName | Dispositivo | Switch        | Dirección IP   |
+|-------------|-------------|---------------|----------------|
+| LP2_SRP     | Laptop      | Planos        | 192.168.73.45  |
+| LP1_SRP     | Laptop      | Planos        | 192.168.73.43  |
+| PC1_SRP     | PC          | Planos        | 192.168.73.44  |
+| PC2_SRP     | PC          | Planos        | 192.168.73.46  |
+| PC3_SRP     | PC          | Planos        | 192.168.73.47  |
 
 ---
 
 ### Piso 3 – Ingeniería y Dirección de Proyectos
 
 #### Dirección General
-| Host        | Dispositivo | Switch                | Dirección IP   |
-|-------------|-------------|-----------------------|----------------|
-| Laptop0     | Laptop      | SW_L3_DIRECCION       | 192.168.73.48  |
-| Laptop11    | Laptop      | SW_L3_DIRECCION       | 192.168.73.49  |
-| PC33        | PC          | SW_L3_DIRECCION       | 192.168.73.50  |
-| PC34        | PC          | SW_L3_DIRECCION       | 192.168.73.51  |
+| Host        | Dispositivo | Switch          | Dirección IP   |
+|-------------|-------------|-----------------|----------------|
+| LP1_DG      | Laptop      | Direccion       | 192.168.73.48  |
+| LP2_DG      | Laptop      | Direccion       | 192.168.73.49  |
+| PC1_DG      | PC          | Direccion       | 192.168.73.50  |
+| PC2_DG      | PC          | Direccion       | 192.168.73.51  |
 
 #### Ingeniería Civil
-| Host        | Dispositivo | Switch                | Dirección IP   |
-|-------------|-------------|-----------------------|----------------|
-| Laptop1     | Laptop      | SW_L3_INGENIERIA      | 192.168.73.52  |
-| PC35        | PC          | SW_L3_INGENIERIA      | 192.168.73.54  |
-| PC36        | PC          | SW_L3_INGENIERIA      | 192.168.73.53  |
-| PC37        | PC          | SW_L3_INGENIERIA      | 192.168.73.55  |
-| PC38        | PC          | SW_L3_INGENIERIA      | 192.168.73.57  |
-| PC39        | PC          | SW_L3_INGENIERIA      | 192.168.73.56  |
+| Host        | Dispositivo | Switch          | Dirección IP   |
+|-------------|-------------|-----------------|----------------|
+| LP1_CIVIL   | Laptop      | Ingenieria      | 192.168.73.52  |
+| PC2_CIVIL   | PC          | Ingenieria      | 192.168.73.54  |
+| PC1_CIVIL   | PC          | Ingenieria      | 192.168.73.53  |
+| PC3_CIVIL   | PC          | Ingenieria      | 192.168.73.55  |
+| SERVER_CIVIL| Server      | Ingenieria      | 192.168.73.57  |
+| PC4_CIVIL   | PC          | Ingenieria      | 192.168.73.56  |
 
 #### Servidores Principales
-| Host     | Dispositivo | Switch                 | Dirección IP   |
-|----------|-------------|------------------------|----------------|
-| Server0  | Server      | SW_L3_SERVIDORES       | 192.168.73.59  |
-| Server1  | Server      | SW_L3_SERVIDORES       | 192.168.73.58  |
-| Server2  | Server      | SW_L3_SERVIDORES       | 192.168.73.60  |
+| Host       | Dispositivo | Switch           | Dirección IP   |
+|----------  |-------------|------------------|----------------|
+| SERVER_P2  | Server      | Servidores       | 192.168.73.59  |
+| SERVER_P1  | Server      | Servidores       | 192.168.73.58  |
+| SERVER_P3  | Server      | Servidores       | 192.168.73.60  |
 
 ---
 
@@ -124,17 +124,17 @@
 Ejemplo de configuración aplicada a cada switch con su nombre y contraseña:
 
 ```plaintext
-enable
-configure terminal
-hostname SW_L1_RECEPCION
-enable secret 201903873
+  enable
+  configure terminal
+  hostname Recep
+  enable secret 201903873
 line console 0
 password 201903873
 login
-exit
+  exit
 service password-encryption
 end
-write memory
+  write memory
 ```
 
 ---
