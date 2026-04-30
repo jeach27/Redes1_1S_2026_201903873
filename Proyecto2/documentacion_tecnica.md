@@ -1173,6 +1173,8 @@ interface FastEthernet0/7
 
 ## Seccion 5 - Capturas de implementacion
 
+> Ver capturas completas con imagenes: [evidencias.md](evidencias.md)
+
 Instrucciones: agregar las capturas en la carpeta Images del repositorio con los nombres indicados a continuacion.
 
 ### 5.1 Topologia general
