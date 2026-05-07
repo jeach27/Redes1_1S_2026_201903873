@@ -37,7 +37,7 @@ ping 192.168.103.20
 ```
 
 ### Screenshot
-![Captura ICMP](Imagenes/wireshark_icmp.png)
+![Captura ICMP](Imagenes/wireshark_icmp.jpg)
 
 ### Descripción de los paquetes capturados
 
@@ -72,7 +72,7 @@ ping 192.168.53.10
 ```
 
 ### Screenshot
-![Captura ARP](Imagenes/wireshark_arp.png)
+![Captura ARP](Imagenes/wireshark_arp.jpg)
 
 ### Descripción de los paquetes capturados
 
@@ -101,7 +101,7 @@ ping 192.168.103.20
 ```
 
 ### Screenshot
-![Captura Kali](Imagenes/wireshark_kali.png)
+![Captura Kali](Imagenes/wireshark_kali.jpg)
 
 ### Descripción de los paquetes capturados
 
@@ -130,7 +130,7 @@ ping 192.168.103.20
 ```
 
 ### Screenshot
-![Captura Win-Linux](Imagenes/wireshark_winlinux.png)
+![Captura Win-Linux](Imagenes/wireshark_winlinux.jpg)
 
 ### Descripción de los paquetes capturados
 
